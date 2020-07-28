@@ -1,0 +1,44 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{Benjamin}{Parry}
+\tagline{\\Civil Engineer}
+%\photo{2.5cm}{darwiin}
+\socialinfo{
+	\linkedinen{benjamin-parry}
+	%\github{darwiin}\\
+	\smartphone{+61 456 066 328}
+	\email{bparry@gmail.com}\\
+	\address{3 River Esplanade\\Mooloolaba 4557, QLD}\\
+	\infos{Available at 5 weeks notice period with current employer}
+}
+
+\begin{document}
+
+	%\selectlanguage{french}
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\today}} 
+		{\textsc{Benjamin Parry - CV}}
+		{\thepage}
+	
+	\resumetitle{Summary Statement}
+	\input{section_headline_eng}
+	\input{section_experience_short_eng}			
+	\input{section_education}				
+	\input{section_skills_eng}			
+	%\input{section_projects}
+	\input{section_languages}	
+%	\input{section_references} 			
+\end{document}
