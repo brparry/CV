@@ -195,6 +195,8 @@
 % Usage; \sociallink{<icon>}{<label>}
 \newcommand{\sociallink}[3]{\mbox{\textcolor{symbolcolor}{#1}\hspace{0.5em}\link{#2}{#3}\hspace{1em}}}
 
+\newcommand{\weblink}[3]{\link{#1}{#2}}
+
 % Define author's name
 % Usage: \name{<firstname>}{<lastname>}
 % Usage: \firstname{<firstname>}
