@@ -407,6 +407,9 @@
 
 \newcommand\emptySeparator{\multicolumn{2}{c}{}\\}
 
+
+
+
 % Define the 'projects' environment
 \newenvironment{projects}{%
   \begin{longtable}{l}

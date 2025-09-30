@@ -1,0 +1,151 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+%----------------------------------------------------------------------------------------
+%	PAGE LAYOUT  DEFINITIONS
+%----------------------------------------------------------------------------------------
+%\documentclass[10pt,A4]{article}	
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+
+% page outer frames (debug-only)
+% \usepackage{showframe}		
+
+% we use paracol to display breakable two columns
+
+% define page styles using geometry
+\usepackage[a4paper]{geometry}
+
+% remove all possible margins
+\geometry{top=1.5cm, bottom=2cm, left=2cm, right=2cm}
+
+\usepackage{fancyhdr}
+\pagestyle{empty}
+
+% space between header and content
+% \setlength{\headheight}{0pt}
+
+% indentation is zero
+\setlength{\parindent}{0mm}
+
+
+\newcommand{\cvlist}[1] {
+	\begin{itemize}{#1}\end{itemize}
+}
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage[thin]{roboto} 
+
+
+%----------------------------------------------------------------------------------------
+%	Color DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+\usepackage{transparent}
+\usepackage{color}
+
+% primary color
+\definecolor{maincol}{RGB}{ 35, 45, 135 }
+
+% accent color, secondary
+% \definecolor{accentcol}{RGB}{ 250, 150, 10 }
+
+% dark color
+\definecolor{darkcol}{RGB}{ 100, 100, 100 }
+
+% light color
+\definecolor{lightcol}{RGB}{235,235,235}
+
+
+\renewcommand*\familydefault{\sfdefault} 	
+\usepackage[T1]{fontenc}
+
+% more font size definitions
+\usepackage{moresize}
+
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}        
+%   % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your %personal info; use this at your own typographical risks...
+
+% personal data
+\name{Ben}{Parry}
+\title{Civil Engineer}                               % optional, remove / comment the line if not wanted
+\address{U 105 / 3 River Esplanade}{Mooloolaba, 4557}{Australia}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+61 456 066 328}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{bparry@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Cardno}{8 Market Lane, PO Box 152,\\ Maroochydore QLD, 4556 }
+\date{February 28, 2021}
+\opening{Dear Sir or Madam,}
+\closing{Yours Sincerely,}
+\enclosure[Attached]{CV{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+I am writing to express my interest in the Civil Engineer position with Cardno on the Sunshine Coast.
+
+I hold a Bachelor of Engineering (Civil) with first class honours obtained from the University of Queensland in 2009. I have worked in various roles primarily in civil engineering, asset management and project management in both domestic and international environments.   
+
+My previous experience has given me a wide range of skills in engineering design, contracts administration, technical report preparation, project management, business administration, commercial negotiations and a high level of general technical skills which i believe would be valuable to any organisation. I am a highly adaptable, conscientious worker and am able to rapidly develop new skills to help negotiate any new challenges I encounter. I have always found civil engineering consulting to provide me a high level of job satisfaction as i enjoy working with the community and contributing to interesting projects that enrich the environment in which we live so I would love to continue working in an environment that would provide these aspects in the role. 
+
+I feel like this position would be well suited to my interests and background so I would love the opportunity to apply. I believe I'd be valuable in this position bringing the following skills and experience:
+
+
+\cvlist{
+	\item Experience in a civil engineering consultancy carrying out preliminary and detailed design and modelling for urban developments, including stormwater, roads, traffic and subdivisions,
+	
+	\item Strong project management and contractual knowledge with excellent time management, interpersonal skills, an ability to plan, organise and deliver work on budget, and excellent written and oral communication,
+	
+	\item Highly skilled at producing technical and commercial engineering project documentation with a high level of attention to detail,
+	
+	\item Experience with CAD and various engineering design software (CivilCAD, AutoCAD, MUSIC, XP-RAFTS, Space GASS, QGIS, etc) and generally highly fluent with software and data,
+	
+	\item A member of Engineers Australia in the Civil and Structural colleges, currently working towards obtaining my RPEQ
+	
+}
+
+I would be more than happy to chat about my application, and am available at your convenience to provide any further information you require by phone or email on the contact details listed above. Looking forward to your hearing from you.
+
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
