@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.11)  1 OCT 2025 20:33
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.11)  3 NOV 2025 20:23
  restricted system commands enabled.
 **cv_Eng.tex
 (./cv_Eng.tex
@@ -1158,12 +1158,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 ) ("./section_experience_short_eng 2.tex"
-Underfull \hbox (badness 1371) in paragraph at lines 141--141
-[]\TU/SourceSansPro-Light(0)/m/n/10 Trained in project man-age-ment frame-works (Ag-ile, PM-BOK, PRINCE2), ap-ply-ing struc-tured ap-
- []
-
-
-Overfull \hbox (4.48311pt too wide) in alignment at lines 17--162
+Overfull \hbox (4.48311pt too wide) in alignment at lines 17--161
  [][] 
  []
 
@@ -1181,108 +1176,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--11
  []
 
 
-Overfull \hbox (14.37617pt too wide) in paragraph at lines 15--41
+Underfull \hbox (badness 1616) in paragraph at lines 41--42
+[]|\TU/SourceSansPro-Light(0)/m/n/10 Proven suc-cess de-liv-er-ing com-plex in-f
+ras-truc-ture projects and pro-grams us-ing PM-BOK,
+ []
+
+
+Overfull \hbox (14.37617pt too wide) in paragraph at lines 19--66
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--41
+Underfull \hbox (badness 10000) in paragraph at lines 19--66
 
  []
 
 
 
-[3]
-! Misplaced \crcr.
-\tbl_crcr:n ...l_count_missing_cells:n {#1}}\crcr 
-                                                  
-l.56 \end{keywords}
-                   	
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Too many }'s.
-\endarray ->\tbl_crcr:n {endarray}\egroup 
-                                          \UseTaggingSocket {tbl/finalize}\t...
-l.56 \end{keywords}
-                   	
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Too many }'s.
-\endarray ...tbl_restore_outer_cell_data: \egroup 
-                                                  \@arrayright \gdef \@pream...
-l.56 \end{keywords}
-                   	
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.56 \end{keywords}
-                   	
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{document} ended by \end{tabular}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \end{keywords}
-                   	
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56 \end{keywords}
-                   	
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.56 \end{keywords}
-                   	
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{keywords}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \end{keywords}
-                   	
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.56 \end{keywords}
-                   	
-Things are pretty mixed up, but I think the worst is over.
-
-) (./section_languages.tex
+[3]) (./section_languages.tex
 Overfull \hbox (290.15793pt too wide) in alignment at lines 30--30
  [][] 
  []
@@ -1299,20 +1210,20 @@ Package rerunfilecheck Info: File `cv_Eng.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30818 strings out of 475506
- 381779,1373583 words of node,token memory allocated
+ 30819 strings out of 475506
+ 381790,1373583 words of node,token memory allocated
  642 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 penalty, 2 glyph, 40 attribute, 7
 1 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:6,2:31700,3:4891,4:316,5:4256,6:256,7:27000,8:2,9:2857,10:13,1
-1:2606
- 53086 multiletter control sequences out of 65536+600000
+   avail lists: 1:5,2:30860,3:4750,4:314,5:4260,6:254,7:27385,8:2,9:2809,10:14,1
+1:2706
+ 53087 multiletter control sequences out of 65536+600000
  52 fonts using 7989463 bytes
  117i,12n,117p,1194b,917s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <./fonts/SourceSansPro-LightIt.otf></usr/local/texlive/2025/texmf-dist/fonts/ope
 ntype/public/fontawesome/FontAwesome.otf><./fonts/SourceSansPro-Regular.otf><./f
 onts/SourceSansPro-Light.otf>
-Output written on cv_Eng.pdf (4 pages, 48086 bytes).
+Output written on cv_Eng.pdf (4 pages, 49407 bytes).
 
 PDF statistics: 93 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
