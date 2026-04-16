@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.11)  3 NOV 2025 20:23
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.11)  16 APR 2026 18:13
  restricted system commands enabled.
 **cv_Eng.tex
 (./cv_Eng.tex
@@ -1152,12 +1152,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 29.
- (./section_headline_eng.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-) ("./section_experience_short_eng 2.tex"
+ (./section_headline_eng.tex)
+("./section_experience_short_eng 2.tex"
 Overfull \hbox (4.48311pt too wide) in alignment at lines 17--161
  [][] 
  []
@@ -1173,6 +1169,12 @@ Overfull \hbox (4.08311pt too wide) in paragraph at lines 15--11
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--11
 
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 29--30
+[]|\TU/SourceSansPro-Light(0)/m/n/10 Lead-ing early-stage project de-vel-op-ment
+, in-clud-ing guid-ing projects through struc-tured
  []
 
 
@@ -1211,19 +1213,19 @@ Package rerunfilecheck Info: File `cv_Eng.out' has not changed.
 
 Here is how much of LuaTeX's memory you used:
  30819 strings out of 475506
- 381790,1373583 words of node,token memory allocated
+ 381775,1373583 words of node,token memory allocated
  642 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 penalty, 2 glyph, 40 attribute, 7
 1 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:5,2:30860,3:4750,4:314,5:4260,6:254,7:27385,8:2,9:2809,10:14,1
-1:2706
+   avail lists: 1:9,2:30852,3:4750,4:314,5:4186,6:254,7:27057,8:2,9:2807,10:14,1
+1:2661
  53087 multiletter control sequences out of 65536+600000
  52 fonts using 7989463 bytes
  117i,12n,117p,1194b,917s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <./fonts/SourceSansPro-LightIt.otf></usr/local/texlive/2025/texmf-dist/fonts/ope
 ntype/public/fontawesome/FontAwesome.otf><./fonts/SourceSansPro-Regular.otf><./f
 onts/SourceSansPro-Light.otf>
-Output written on cv_Eng.pdf (4 pages, 49407 bytes).
+Output written on cv_Eng.pdf (4 pages, 49224 bytes).
 
 PDF statistics: 93 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.11)  3 NOV 2025 19:33
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.9.11)  16 APR 2026 18:17
  restricted system commands enabled.
 **cv_coverLetter.tex
 (./cv_coverLetter.tex
@@ -1165,12 +1165,12 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.35 	\resumetitle
-                  {\textbf{Project Development Lead}}
+                  {\textbf{Infrastructure Investment Planning Roles}}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(./section_Letter_CSEnergy.tex
+(./section_Letter_CEFC.tex
 Underfull \hbox (badness 10000) in paragraph at lines 35--11
 
  []
@@ -1196,42 +1196,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 16--31
 
  []
 
@@ -1274,14 +1274,14 @@ Here is how much of LuaTeX's memory you used:
  637 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 1 penalty, 2 glyph, 40 attribute, 7
 0 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 1:2,2:1149,3:246,4:94,5:2014,6:59,7:11646,8:2,9:379,10:8,11:1114
+   avail lists: 1:1,2:1095,3:237,4:94,5:2245,6:38,7:12960,8:2,9:367,10:8,11:1303
 
  52977 multiletter control sequences out of 65536+600000
  45 fonts using 6395903 bytes
  117i,11n,117p,1202b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/fontawesome/FontAwesom
 e.otf><./fonts/SourceSansPro-Regular.otf><./fonts/SourceSansPro-Light.otf>
-Output written on cv_coverLetter.pdf (1 page, 18284 bytes).
+Output written on cv_coverLetter.pdf (1 page, 17623 bytes).
 
 PDF statistics: 40 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
